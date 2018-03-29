@@ -25,22 +25,21 @@
         android:layout_marginBottom="35dp"
         android:background="#fff"
         android:ems="10"
-        android:hint="Username"
+        android:hint="@string/username"
         android:inputType="textPersonName"
-        android:textSize="16dp" />
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/editText2"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_alignBottom="@+id/cardView"
-        android:layout_alignLeft="@+id/editText"
         android:layout_alignStart="@+id/editText"
         android:layout_marginBottom="130dp"
         android:background="#fff"
         android:ems="10"
-        android:hint="Password"
-        android:textSize="16dp"
+        android:hint="@string/Password"
+        android:textSize="16sp"
         android:inputType="textPassword" />
 
     <RelativeLayout
@@ -61,7 +60,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:text="Login"
+                android:text="@string/Login"
                 android:textColor="#fff"
                 android:textSize="18sp"
                 android:background="#1565C0"/>
@@ -76,7 +75,7 @@
         android:layout_above="@+id/linearLayout"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="6dp"
-        android:text="forgot password"
+        android:text="@string/forgot_password"
         android:textAllCaps="true"
         android:textColor="#fff"
         android:textStyle="bold"/>

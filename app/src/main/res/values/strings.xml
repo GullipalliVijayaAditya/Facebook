@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Facebook</string>
+    <string name="username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Login">Login</string>
+    <string name="forgot_password">forgot password</string>
+    <string name="create_new_facebook_account">create new facebook account</string>
 </resources>
