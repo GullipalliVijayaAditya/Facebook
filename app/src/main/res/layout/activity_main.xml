@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryDark"
+    android:background="#0D47A1"
     tools:context=".MainActivity">
 
     <ImageView
@@ -64,7 +64,7 @@
                 android:text="Login"
                 android:textColor="#fff"
                 android:textSize="18sp"
-                android:background="@color/colorButton"/>
+                android:background="#1565C0"/>
 
         </RelativeLayout>
     </RelativeLayout>
@@ -76,7 +76,7 @@
         android:layout_above="@+id/linearLayout"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="6dp"
-        android:text="forgot password "
+        android:text="forgot password"
         android:textAllCaps="true"
         android:textColor="#fff"
         android:textStyle="bold"/>
@@ -94,9 +94,8 @@
             android:padding="10dp"
             android:text="create new facebook account"
             android:textAllCaps="true"
-            android:background="@color/createaccountButton"
+            android:background="#1565C0"
             android:textColor="#fff"
-            android:layout_margin="8dp"
             android:textStyle="bold"/>
 
     </LinearLayout>
