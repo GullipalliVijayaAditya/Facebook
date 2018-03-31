@@ -4,5 +4,6 @@
     <color name="colorPrimaryDark">#35528d</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorButton">#294073</color>
+    <color name="createaccountButton">#20d250</color>
 </resources>
 

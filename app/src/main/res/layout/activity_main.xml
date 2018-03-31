@@ -64,7 +64,7 @@
                 android:text="Login"
                 android:textColor="#fff"
                 android:textSize="18sp"
-                android:background="#1565C0"/>
+                android:background="@color/colorButton"/>
 
         </RelativeLayout>
     </RelativeLayout>
@@ -76,7 +76,7 @@
         android:layout_above="@+id/linearLayout"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="6dp"
-        android:text="forgot password"
+        android:text="forgot password "
         android:textAllCaps="true"
         android:textColor="#fff"
         android:textStyle="bold"/>
@@ -94,8 +94,9 @@
             android:padding="10dp"
             android:text="create new facebook account"
             android:textAllCaps="true"
-            android:background="@color/colorButton"
+            android:background="@color/createaccountButton"
             android:textColor="#fff"
+            android:layout_margin="8dp"
             android:textStyle="bold"/>
 
     </LinearLayout>
